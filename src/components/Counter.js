@@ -49,7 +49,7 @@ function StatsComponent() {
     const interval = setInterval(() => {
       setCounters((prevCounters) => ({
         projectsCompleted: Math.min(
-          prevCounters.projectsCompleted + 1000, // Increment by 100 (adjust as needed for smoother animation)
+          prevCounters.projectsCompleted + 500, // Increment by 100 (adjust as needed for smoother animation)
           targetValues.projectsCompleted
         ),
         topSystems: Math.min(
