@@ -6,6 +6,7 @@ import education from '../assets/education.webp';
 import Healthcare from '../assets/healthcare.jpg';
 import Entertainment from '../assets/entertain.jpeg';
 import government from '../assets/govt.avif';
+import { Parallax } from 'react-scroll-parallax';
 
 function MarketsServed() {
   const marketItems = [
@@ -18,14 +19,17 @@ function MarketsServed() {
   ];
 
   return (
-    <div className="markets-served">
-      <h2>MARKETS WE SERVE</h2>
-      <p>
-        Avidex serves a variety of markets and industries in the US and around
-        the world. Our industry-focused teams, commitment to ongoing training,
-        and unwavering focus on client success enable us to provide outstanding
-        client experiences in every market we serve.
-      </p>
+    <div className="markets-served mt-[-30px]">
+      <Parallax translateY={['-50px', '20px']} scale={[1, 1.05]} opacity={[0.2, 10]}>
+        <h2>MARKETS WE SERVE</h2>
+        <p>
+          Avidex serves a variety of markets and industries in the US and around
+          the world. Our industry-focused teams, commitment to ongoing training,
+          and unwavering focus on client success enable us to provide outstanding
+          client experiences in every market we serve.
+        </p>
+      </Parallax>
+
       <div className="market-grid">
         {marketItems.map((item, index) => (
           <div
