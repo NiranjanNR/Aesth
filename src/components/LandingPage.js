@@ -18,7 +18,7 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div>
-            <Parallax scale={[1, 1.06]} translateY={['-10px', '90px']} opacity={[0.2, 10]}>
+            <Parallax scale={[1, 1.06]} translateY={['-10px', '130px']} opacity={[0.2, 10]}>
                 <div className='h-[70vh] w-[100vw] flex justify-center items-center'>
                     <div className='flex items-center'>
                         <div className=''>
