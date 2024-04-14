@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  color: #761f73;
+  color: #995a97;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -66,7 +66,7 @@
 
 
 .card-front {
-  background-color: #8e348b;
+  background-color: #9c7dbb;
   color: #fff;
   display: flex;
   align-items: center;
@@ -77,9 +77,10 @@
 }
 
 .card-back {
-  background-color: #4d0f53;
-  color: #fff;
+  background-color: #CFCFC4;
+  color: #696969;
   display: flex;
+  font-weight: 700;
   align-items: center;
   border-radius: 10px;
   justify-content: center;

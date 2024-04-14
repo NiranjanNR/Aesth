@@ -2,12 +2,12 @@ import React from 'react'
 
 const OurProcess = () => {
     return (
-        <div className='h-[82vh] w-[100vw] bg-slate-300/20 flex'>
+        <div className='h-[82vh] w-[100vw] bg-[#f7ede470] flex'>
             <div className='w-[40vw] h-full flex items-center justify-center p-20'>
                 <div>
                     <div className='text-[2.2em] font-bold mb-[0px] text-[#af4bac]'>OUR PROCESS</div>
                     <div className='text-[1.8em] font-semibold mb-[8px] text-[#761f73]'>Every Project, Big and Small</div>
-                    <div className='text-[1.32em] font-[400] text-slate-800/75'>We take a consultative approach to all our projects by listening to your challenges, goals, and requirements while considering your unique spaces and budget. Our goal is to create easy-to-use, highly functional, and integrated audiovisual solutions for an exceptional, unified project experience. Avidex supports our valued partnerships by designing and integrating world-class audiovisual systems with a focus on integrity and quality.</div>
+                    <div className='text-[1.32em] font-[400] text-slate-800/75'>We take a consultative approach to all our projects by listening to your challenges, goals, and requirements while considering your unique spaces and budget. Our goal is to create easy-to-use, highly functional, and integrated audiovisual solutions for an exceptional, unified project experience. Aesthetix supports our valued partnerships by designing and integrating world-class audiovisual systems with a focus on integrity and quality.</div>
                 </div>
             </div>
             <div className='w-[60vw] h-full flex justify-center items-center'>
@@ -48,7 +48,7 @@ const OurProcess = () => {
                                 <p className='text-4xl font-semibold'>4 | SUPPORT</p>
                             </div>
                             <div className="card-back">
-                                <p className='text-[18px] w-[340px] text-center'>Avidex combines the best manufacturer-trained and industry-certified professionals with our comprehensive 360° Service™ Managed Services portfolio to fully support our client’s complete audiovisual needs. </p>
+                                <p className='text-[18px] w-[340px] text-center'>Aesthetix combines the best manufacturer-trained and industry-certified professionals with our comprehensive 360° Service™ Managed Services portfolio to fully support our client’s complete audiovisual needs. </p>
                             </div>
                         </div>
                     </div>

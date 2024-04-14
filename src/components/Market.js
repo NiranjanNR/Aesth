@@ -23,7 +23,7 @@ function MarketsServed() {
       <Parallax translateY={['-50px', '20px']} scale={[1, 1.05]} opacity={[0.2, 10]}>
         <h2>MARKETS WE SERVE</h2>
         <p>
-          Avidex serves a variety of markets and industries in the US and around
+          Aesthetix serves a variety of markets and industries in the US and around
           the world. Our industry-focused teams, commitment to ongoing training,
           and unwavering focus on client success enable us to provide outstanding
           client experiences in every market we serve.
