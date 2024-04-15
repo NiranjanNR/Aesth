@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const OurProcess = () => {
     return (
         <div className='h-[82vh] w-[100vw] bg-[#f7ede470] flex'>
