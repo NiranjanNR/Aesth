@@ -39,11 +39,17 @@ const Footer = () => {
         <section className="mb-5">
           <div className="row d-flex justify-content-center">
             <div className="col-lg-8">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
-                voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam sequi
-                voluptate quas.
+            <p>
+                Aesthetix Technologies LLC <br />
+                26th Street, Al Quoz Industrial Area 4, <br />
+                Dubai, United Arab Emirates
               </p>
+              <br />
+              <p>
+                info@aesthetixtechnologies.com <br />
+                +971 4 320 9096 <br />
+              </p>
+
             </div>
           </div>
         </section>

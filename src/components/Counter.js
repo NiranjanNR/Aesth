@@ -40,10 +40,10 @@ function StatsComponent() {
 
   useEffect(() => {
     const targetValues = {
-      projectsCompleted: 60000,
+      projectsCompleted: 10000,
       topSystems: 10,
       repeatBusiness: 98,
-      countriesServed: 27
+      countriesServed: 20
     };
 
     const interval = setInterval(() => {
@@ -77,16 +77,12 @@ function StatsComponent() {
         <Text>AV Projects Completed</Text>
       </Column>
       <Column>
-        <Number>#{counters.topSystems}</Number>
-        <Text>SCN's Top 50 AV Systems</Text>
-      </Column>
-      <Column>
         <Number>{counters.repeatBusiness}%</Number>
         <Text>Of Customers Repeat Business</Text>
       </Column>
       <Column>
         <Number>{counters.countriesServed}</Number>
-        <Text>Countries Served</Text>
+        <Text>Years of experience</Text>
       </Column>
     </Container>
   );

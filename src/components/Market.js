@@ -1,9 +1,9 @@
 import React from 'react';
 import '../App.css';
-import banking from '../assets/banking.jpeg';
+import itservice from '../assets/itservice.jpg';
 import corporate from '../assets/cooperate.jpeg';
 import education from '../assets/education.webp';
-import Healthcare from '../assets/healthcare.jpg';
+import retail from '../assets/retail.jpg';
 import Entertainment from '../assets/entertain.jpeg';
 import government from '../assets/govt.avif';
 import { Parallax } from 'react-scroll-parallax';
@@ -11,10 +11,10 @@ import { Parallax } from 'react-scroll-parallax';
 function MarketsServed() {
   const marketItems = [
     { image: corporate, label: 'Corporate/Enterprise' },
-    { image: banking, label: 'Financial/Banking' },
+    { image: itservice, label: 'IT services' },
     { image: education, label: 'Education' },
+    { image: retail, label: 'Retail' },
     { image: government, label: 'Government/Public Sector' },
-    { image: Healthcare, label: 'Healthcare' },
     { image: Entertainment, label: 'Hospitality & Entertainment' },
   ];
 

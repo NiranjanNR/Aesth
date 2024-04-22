@@ -1,6 +1,6 @@
 import React from 'react'
 import first from '../assets/first.png';
-import second from '../assets/second.png';
+import second from '../assets/second.jpg';
 import { Parallax } from 'react-scroll-parallax';
 
 const LandingPage = () => {
