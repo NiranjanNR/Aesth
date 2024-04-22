@@ -2,11 +2,15 @@ import React from 'react'
 import first from '../assets/first.png';
 import second from '../assets/second.jpg';
 import { Parallax } from 'react-scroll-parallax';
+import avideo from '../assets/aesthexvideo.mp4';
 
 const LandingPage = () => {
     return (
         <div>
             <div className='h-[93vh] w-[100vw] bg-[#f7ede4b3] flex items-end'>
+            <video autoPlay loop muted className='absolute inset-0 object-cover w-full h-full opacity-30'>
+                <source src={avideo} type='video/mp4' />
+            </video>
                 <div className=''>
                     <div className='text-[2.3em] ml-32 font-semibold w-[600px] mb-2'>
                         <div className='mb-[-10px]'>CONNECTING PEOPLE</div>
