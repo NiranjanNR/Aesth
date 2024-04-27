@@ -6,9 +6,9 @@ const OurProcess = () => {
         <div className='h-[82vh] w-[100vw] bg-[#f7ede470] flex'>
             <div className='w-[40vw] h-full flex items-center justify-center p-20'>
                 <div>
-                    <div className='text-[2.2em] font-bold mb-[0px] text-[#af4bac]'>OUR PROCESS</div>
-                    <div className='text-[1.8em] font-semibold mb-[8px] text-[#761f73]'>Every Project, Big and Small</div>
-                    <div className='text-[1.32em] font-[400] text-slate-800/75'>We take a consultative approach to all our projects by listening to your challenges, goals, and requirements while considering your unique spaces and budget. Our goal is to create easy-to-use, highly functional, and integrated audiovisual solutions for an exceptional, unified project experience. Aesthetix supports our valued partnerships by designing and integrating world-class audiovisual systems with a focus on integrity and quality.</div>
+                    <div className='text-[2.1em] font-bold mb-[0px] text-[#af4bac]'>OUR PROCESS</div>
+                    <div className='text-[1.7em] font-semibold mb-[8px] text-[#761f73]'>Every Project, Big and Small</div>
+                    <div className='text-[1.2em] font-[400] text-slate-800/75'>We take a consultative approach to all our projects by listening to your challenges, goals, and requirements while considering your unique spaces and budget. Our goal is to create easy-to-use, highly functional, and integrated audiovisual solutions for an exceptional, unified project experience. Aesthetix supports our valued partnerships by designing and integrating world-class audiovisual systems with a focus on integrity and quality.</div>
                 </div>
             </div>
             <div className='w-[60vw] h-full flex justify-center items-center'>

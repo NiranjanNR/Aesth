@@ -19,15 +19,17 @@ function MarketsServed() {
   ];
 
   return (
-    <div className="markets-served mt-[-30px]">
-      <Parallax translateY={['-50px', '20px']} scale={[1, 1.05]} opacity={[0.2, 10]}>
-        <h2>MARKETS WE SERVE</h2>
-        <p>
-          Aesthetix serves a variety of markets and industries in the US and around
-          the world. Our industry-focused teams, commitment to ongoing training,
-          and unwavering focus on client success enable us to provide outstanding
-          client experiences in every market we serve.
-        </p>
+    <div className="markets-served mt-[-30px] ">
+      <Parallax translateY={['-50px', '20px']} className='w-[100vw] flex justify-center' scale={[1, 1.05]} opacity={[0.2, 10]}>
+        <div className='w-[900px]'>
+          <h2 className=''>MARKETS WE SERVE</h2>
+          <p>
+            Aesthetix serves a variety of markets and industries in the US and around
+            the world. Our industry-focused teams, commitment to ongoing training,
+            and unwavering focus on client success enable us to provide outstanding
+            client experiences in every market we serve.
+          </p>
+        </div>
       </Parallax>
 
       <div className="market-grid">
